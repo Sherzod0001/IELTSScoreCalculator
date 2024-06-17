@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-PrintParagraph("IELTS score average FOR academic");
+PrintParagraph("IELTS score average FOR academic !!!");
 
 PrintText("Listening score: ");
 decimal listeningScore = GetUserScore();
@@ -39,12 +39,12 @@ string MapToLevelName(decimal score)
 {
     return score switch
     {
-        9 or 8.5m => "Expert",
-        8 or 7.5m => "Very Good",
-        7 or 6.5m => "Good",
-        6 or 5.5m => "Competent",
-        5 => "Modest",
-        _ =>"Incompetent"
+        9 or 8.5m => "Expert !",
+        8 or 7.5m => "Very Good !",
+        7 or 6.5m => "Good !",
+        6 or 5.5m => "Competent !",
+        5 => "Modest !",
+        _ =>"Incompetent !"
     };
 }
 
